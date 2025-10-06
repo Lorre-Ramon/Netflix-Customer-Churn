@@ -36,18 +36,18 @@ This project conducts an Exploratory Data Analysis (EDA) on Netflix customer chu
 - **Feature Scaling**: StandardScaler for continuous variables
 - **Feature Engineering**: Age bucketing and correlation analysis
 
-### Model Comparison
-| Model | Accuracy | AUC | Key Strengths |
-|-------|----------|-----|---------------|
-| Random Forest | ~90% | >0.9 | Feature importance insights |
-| Logistic Regression | ~90% | >0.9 | Interpretable coefficients |
-
-### Cross-Validation Results
+### Cross-Validation Results (for Logistic Regression)
 - Stable performance across different data splits
 - Minimal overfitting detected
 - Strong generalization capability
 
-## Actionable Recommendations
+### Model Comparison
+| Model | Accuracy | AUC | Key Strengths |
+|-------|----------|-----|---------------|
+| Random Forest | ~92% | 0.98 | Feature importance insights |
+| Logistic Regression | ~89% | 0.96 | Interpretable coefficients |
+
+## Actionable Items
 
 ### 🎬 Content & Engagement Strategy
 1. **Improve Content Quality**
@@ -77,15 +77,17 @@ This project conducts an Exploratory Data Analysis (EDA) on Netflix customer chu
    - Early intervention triggers
 
 ### 🎯 Retention Interventions
-1. **Proactive Engagement**
-   - Send personalized content recommendations
-   - Offer exclusive previews for at-risk users
-   - Implement re-engagement campaigns
-
-2. **Targeted Communications**
-   - Personalized notifications based on viewing history
-   - Special offers for users showing declining engagement
+1. **Content Personalization**
+   - Personalized content recommendations
    - Content alerts for favorite genres/actors
+   - Exclusive previews for at-risk users
+
+2. Re-Engagement & Retention
+   - Re-engagement campaigns for inactive users
+   - Special offers for users showing declining engagement
+
+1. Communication & Notifications
+   - Personalized notifications based on viewing history
 
 ## Conclusions
 
